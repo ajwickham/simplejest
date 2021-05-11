@@ -4,12 +4,15 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode development",
+    "lint": "eslint src/*.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-loader": "^3.0.0",
     "webpack": "4.39.3",
     "webpack-cli": "^3.3.8"
   }
